@@ -1,6 +1,7 @@
 package com.example;
 //=================================-Imports-==================================
 import java.util.ArrayList;
+import com.example.ColorNotSupportedException;
 
 public class ColorString {
     //============================-Variables-=================================
