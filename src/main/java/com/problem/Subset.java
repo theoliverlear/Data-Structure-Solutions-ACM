@@ -13,9 +13,7 @@ Example 2:
 Input: nums = [0]
 Output: [[],[0]]
  */
-package problem;
-
-import java.util.ArrayList;
+package com.problem;
 
 //=================================-Imports-==================================
 // Your imports here
@@ -43,6 +41,8 @@ public class Subset {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
         Subset subset = new Subset(nums);
-        System.out.println(subset.getSubsets());
+        // Uncomment the following line once you have implemented the
+        // solution.
+//        System.out.println(subset.getSubsets());
     }
 }

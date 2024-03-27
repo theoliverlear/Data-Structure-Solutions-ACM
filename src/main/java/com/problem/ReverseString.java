@@ -10,32 +10,23 @@ Example 2:
 Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
  */
-package solution;
+package com.problem;
 //=================================-Imports-==================================
-import java.util.Stack;
-
+// Your imports here
 public class ReverseString {
     //============================-Variables-=================================
+    // Your data structures
     private String reversedString;
-    private Stack<String> stringStacked;
     //===========================-Constructors-===============================
-    public ReverseString(String stringToReverse) {
-        this.stringStacked = new Stack<>();
-        this.reversedString = this.buildReversedString(stringToReverse);
+    public ReverseString(String stringToReverse /*Your parameters*/) {
+        // Your logic
     }
     //=============================-Methods-==================================
 
-    //-----------------------Build-Reversed-String----------------------------
+    //----------------------Build-Reversed-String-----------------------------
     public String buildReversedString(String stringToReverse) {
-        String[] stringLetters = stringToReverse.split("");
-        for (String character : stringLetters) {
-            this.stringStacked.push(character);
-        }
-        StringBuilder reversedStringBuilder = new StringBuilder();
-        while (!this.stringStacked.isEmpty()) {
-            reversedStringBuilder.append(this.stringStacked.pop());
-        }
-        return reversedStringBuilder.toString();
+        // Your logic
+        return "";
     }
     //=============================-Getters-==================================
     public String getReversedString() {

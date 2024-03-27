@@ -2,7 +2,7 @@
 Write a class that stores equations and their parameters. The class should
 return the equation when given the name of the equation.
  */
-package problem;
+package com.problem;
 //=================================-Imports-==================================
 // Your imports here
 public class EquationStorage {

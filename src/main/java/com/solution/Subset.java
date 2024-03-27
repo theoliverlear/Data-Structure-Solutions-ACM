@@ -13,7 +13,7 @@ Example 2:
 Input: nums = [0]
 Output: [[],[0]]
  */
-package solution;
+package com.solution;
 //=================================-Imports-==================================
 import java.util.ArrayList;
 

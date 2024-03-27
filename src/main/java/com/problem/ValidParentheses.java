@@ -17,7 +17,7 @@ Example 3:
 Input: parentheses = "(]"
 Output: false
  */
-package problem;
+package com.problem;
 //=================================-Imports-==================================
 public class ValidParentheses {
     //============================-Variables-=================================

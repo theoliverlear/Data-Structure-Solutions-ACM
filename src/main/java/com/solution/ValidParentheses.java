@@ -17,7 +17,7 @@ Example 3:
 Input: parentheses = "(]"
 Output: false
  */
-package solution;
+package com.solution;
 //=================================-Imports-==================================
 import java.util.Stack;
 
