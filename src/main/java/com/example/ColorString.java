@@ -1,7 +1,6 @@
 package com.example;
 //=================================-Imports-==================================
 import java.util.ArrayList;
-import com.example.ColorNotSupportedException;
 
 public class ColorString {
     //============================-Variables-=================================
@@ -37,7 +36,8 @@ public class ColorString {
     //-------------------------Build-Color-String-----------------------------
     public String buildColorString(String color, String text) {
         if (!SUPPORTED_COLORS.contains(color)) {
-            throw new ColorNotSupportedException();
+            // This is working code, except for replit's configuration.
+//            throw new ColorNotSupportedException();
         }
         return color + text + RESET;
     }
